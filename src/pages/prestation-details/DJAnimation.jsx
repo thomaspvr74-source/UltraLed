@@ -12,6 +12,7 @@ export default function DJAnimation() {
       <section className="prestation-detail-hero">
         <div className="prestation-detail-main-media">
           <img src={gallery[0]} alt="DJ et animation" />
+          
         </div>
 
         <div className="prestation-detail-intro">

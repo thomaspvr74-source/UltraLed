@@ -7,25 +7,25 @@ export default function Prestations() {
       slug: "sonorisation",
       title: "Sonorisation",
       desc: "Systèmes audio puissants et clairs pour tous types d’événements.",
-      img: "images/prestations/sonorisation-main.jpg",
+      img: "/images/prestations/sonorisation-main.jpg",
     },
     {
       slug: "eclairage",
       title: "Éclairage",
       desc: "Ambiance lumineuse moderne, dynamique et personnalisée.",
-      img: "images/prestations/eclairage-main.png",
+      img: "/images/prestations/eclairage-main.png",
     },
     {
       slug: "dj-animation",
       title: "DJ & Animation",
       desc: "Une ambiance musicale adaptée à votre soirée.",
-      img: "images/prestations/dj-main.png",
+      img: "/images/prestations/dj-main.png",
     },
     {
       slug: "eclairage-scenique",
       title: "Éclairage Scénique",
       desc: "Projecteurs, effets et mise en scène professionnelle.",
-      img: "images/prestations/eclairage-scenique-main.jpg",
+      img: "/images/prestations/eclairage-scenique-main.jpg",
     },
   ];
 

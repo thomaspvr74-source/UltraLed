@@ -2,9 +2,9 @@ import "../../styles/PrestationDetail.css";
 
 export default function DJAnimation() {
   const gallery = [
-    "images/prestations/dj-main.jpg",
-    "images/prestations/dj-1.jpg",
-    "images/prestations/dj-2.jpg",
+    "/images/prestations/dj-main.jpg",
+    "/images/prestations/dj-1.jpg",
+    "/images/prestations/dj-2.jpg",
   ];
 
   return (

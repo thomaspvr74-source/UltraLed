@@ -1,12 +1,13 @@
+
 import "../../styles/PrestationDetail.css";
 
 console.log("PAGE SONO CHARGÉE");
 
 export default function Sonorisation() {
   const gallery = [
-    "images/prestations/sonorisation-main.jpg",
-    "images/prestations/sonorisation-1.jpg",
-    "images/prestations/sonorisation-2.jpg",
+    "/images/prestations/sonorisation-main.jpg",
+    "/images/prestations/sonorisation-1.jpg",
+    "/images/prestations/sonorisation-2.jpg",
   ];
 
   return (

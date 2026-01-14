@@ -2,9 +2,9 @@ import "../../styles/PrestationDetail.css";
 
 export default function Eclairage() {
   const gallery = [
-    "/images/prestations/eclairage_main.jpg",
-    "/images/prestations/eclairage-1.jpg",
-    "/images/prestations/eclairage-2.webp",
+    "images/prestations/eclairage_main.jpg",
+    "images/prestations/eclairage-1.jpg",
+    "images/prestations/eclairage-2.webp",
   ];
 
   return (
@@ -52,7 +52,7 @@ export default function Eclairage() {
           <h2>Options disponibles</h2>
           <ul>
             <li>Par à Led LED RGB</li>
-            <li>jeux de lumière </li>
+            <li>Jeux de lumière</li>
             <li>Effets dynamiques</li>
             <li>Synchronisation musicale</li>
           </ul>

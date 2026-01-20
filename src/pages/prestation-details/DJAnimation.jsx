@@ -2,9 +2,9 @@ import "../../styles/PrestationDetail.css";
 
 export default function DJAnimation() {
   const gallery = [
-    <img src={`${import.meta.env.BASE_URL}/images/prestations/dj-main.jpg`} />,
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/dj-1.jpg'} />,
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/dj-2.jpg'} />,    
+    `${import.meta.env.BASE_URL}images/prestations/dj-main.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/dj-1.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/dj-2.jpg`,
   ];
 
   return (
@@ -12,7 +12,6 @@ export default function DJAnimation() {
       <section className="prestation-detail-hero">
         <div className="prestation-detail-main-media">
           <img src={gallery[0]} alt="DJ et animation" />
-          
         </div>
 
         <div className="prestation-detail-intro">

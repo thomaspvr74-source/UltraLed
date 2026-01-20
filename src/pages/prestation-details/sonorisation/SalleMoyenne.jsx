@@ -8,7 +8,7 @@ export default function SalleMoyenne() {
       <section className="prestation-detail-hero">
         <div className="prestation-detail-main-media">
           <img
-            src="/images/prestations/sonorisation-1.jpg"
+            src={`${import.meta.env.BASE_URL}images/prestations/sonorisation-1.jpg`}
             alt="Sonorisation salle moyenne"
           />
         </div>
@@ -51,10 +51,16 @@ export default function SalleMoyenne() {
       {/* GALERIE */}
       <section className="prestation-detail-gallery">
         <div className="prestation-detail-thumb">
-          <img src="/images/prestations/sonorisation-2.jpg" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/prestations/sonorisation-2.jpg`}
+            alt="Sonorisation salle moyenne"
+          />
         </div>
         <div className="prestation-detail-thumb">
-          <img src="/images/prestations/sonorisation-main.jpg" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/prestations/sonorisation-main.jpg`}
+            alt="Sonorisation salle moyenne"
+          />
         </div>
       </section>
 

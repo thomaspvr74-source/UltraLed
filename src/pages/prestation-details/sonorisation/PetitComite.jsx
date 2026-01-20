@@ -8,7 +8,7 @@ export default function PetitComite() {
       <section className="prestation-detail-hero">
         <div className="prestation-detail-main-media">
           <img
-            src="/images/prestations/sonorisation-main.jpg"
+            src={`${import.meta.env.BASE_URL}images/prestations/sonorisation-main.jpg`}
             alt="Sonorisation petit comité"
           />
         </div>
@@ -39,8 +39,8 @@ export default function PetitComite() {
         <div className="prestation-detail-block">
           <h2>Caractéristiques</h2>
           <ul>
-            <li>System HK AUDIO 1450 W 2 enceinte et un caisson de basse</li>
-            <li>micro filaire ou HF</li>
+            <li>System HK AUDIO 1450 W 2 enceintes et un caisson de basse</li>
+            <li>Micro filaire ou HF</li>
             <li>Table de mixage simple</li>
             <li>Installation rapide et discrète</li>
             <li>Possibilité de prendre une autre prestation avec</li>
@@ -52,10 +52,16 @@ export default function PetitComite() {
       {/* GALERIE */}
       <section className="prestation-detail-gallery">
         <div className="prestation-detail-thumb">
-          <img src="/images/prestations/sonorisation-1.jpg" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/prestations/sonorisation-1.jpg`}
+            alt="Sonorisation petit comité"
+          />
         </div>
         <div className="prestation-detail-thumb">
-          <img src="/images/prestations/sonorisation-2.jpg" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/prestations/sonorisation-2.jpg`}
+            alt="Sonorisation petit comité"
+          />
         </div>
       </section>
 

@@ -2,9 +2,9 @@ import "../../styles/PrestationDetail.css";
 
 export default function Eclairage() {
   const gallery = [
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/eclairage_main.jpg'} />,
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/eclairage-1.jpg'} />,
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/eclairage-2.webp'} />,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage_main.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-1.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-2.webp`,
   ];
 
   return (

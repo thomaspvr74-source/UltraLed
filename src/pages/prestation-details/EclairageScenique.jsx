@@ -2,23 +2,21 @@ import "../../styles/PrestationDetail.css";
 
 export default function EclairageScenique() {
   const gallery = [
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/eclairage-scenique-1.jpg'} />,
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/eclairage-scenique-2.jpg'} />,
-    <img src={'${import.meta.env.BASE_URL}/images/prestations/eclairage-scenique-main.jpg'} />,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-scenique-1.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-scenique-2.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-scenique-main.jpg`,
   ];
 
   return (
     <div className="prestation-detail-page">
 
       <section className="prestation-detail-hero">
-        <div className="prestation-detail-main-media">
-          <div className="prestation-detail-main-media video-wrapper">
-            <video
-              src={'${import.meta.env.BASE_URL}/videos/prestations/eclairage-scenique-main.mp4'}
-              controls
-              playsInline
-            ></video>
-          </div>
+        <div className="prestation-detail-main-media video-wrapper">
+          <video
+            src={`${import.meta.env.BASE_URL}videos/prestations/eclairage-scenique-main.mp4`}
+            controls
+            playsInline
+          ></video>
         </div>
 
         <div className="prestation-detail-intro">

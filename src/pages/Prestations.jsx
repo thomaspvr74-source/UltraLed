@@ -3,31 +3,32 @@ import "../styles/Prestations.css";
 
 export default function Prestations() {
   const prestations = [
-    {
-      slug: "sonorisation",
-      title: "Sonorisation",
-      desc: "Systèmes audio puissants et clairs pour tous types d’événements.",
-      img: `${import.meta.env.BASE_URL}images/prestations/sonorisation-main.jpg`,
-    },
-    {
-      slug: "eclairage",
-      title: "Éclairage",
-      desc: "Ambiance lumineuse moderne, dynamique et personnalisée.",
-      img: `${import.meta.env.BASE_URL}images/prestations/eclairage-main.png`,
-    },
-    {
-      slug: "dj-animation",
-      title: "DJ & Animation",
-      desc: "Une ambiance musicale adaptée à votre soirée.",
-      img: `${import.meta.env.BASE_URL}images/prestations/dj-main.png`,
-    },
-    {
-      slug: "eclairage-scenique",
-      title: "Éclairage Scénique",
-      desc: "Projecteurs, effets et mise en scène professionnelle.",
-      img: `${import.meta.env.BASE_URL}images/prestations/eclairage-scenique-main.jpg`,
-    },
-  ];
+  {
+    slug: "sonorisation",
+    title: "Sonorisation",
+    desc: "Systèmes audio puissants et clairs pour tous types d’événements.",
+    img: `${import.meta.env.BASE_URL}images/prestations/sonorisation-main.jpg`,
+  },
+  {
+    slug: "eclairage",
+    title: "Éclairage",
+    desc: "Ambiance lumineuse moderne, dynamique et personnalisée.",
+    img: `${import.meta.env.BASE_URL}images/prestations/eclairage-main.png`,
+  },
+  {
+    slug: "dj-animation",
+    title: "DJ & Animation",
+    desc: "Une ambiance musicale adaptée à votre soirée.",
+    img: `${import.meta.env.BASE_URL}images/prestations/dj-main.png`,
+  },
+  {
+    slug: "eclairage-scenique",
+    title: "Éclairage Scénique",
+    desc: "Projecteurs, effets et mise en scène professionnelle.",
+    img: `${import.meta.env.BASE_URL}images/prestations/eclairage-scenique-main.jpg`,
+  },
+];
+
 
   return (
     <div className="prestations-page">

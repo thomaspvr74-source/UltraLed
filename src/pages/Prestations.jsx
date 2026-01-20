@@ -13,13 +13,13 @@ export default function Prestations() {
       slug: "eclairage",
       title: "Éclairage",
       desc: "Ambiance lumineuse moderne, dynamique et personnalisée.",
-      img: `${import.meta.env.BASE_URL}images/prestations/eclairage-main.jpg`,
+      img: `${import.meta.env.BASE_URL}images/prestations/eclairage-main.png`,
     },
     {
       slug: "dj-animation",
       title: "DJ & Animation",
       desc: "Une ambiance musicale adaptée à votre soirée.",
-      img: `${import.meta.env.BASE_URL}images/prestations/dj-main.jpg`,
+      img: `${import.meta.env.BASE_URL}images/prestations/dj-main.png`,
     },
     {
       slug: "eclairage-scenique",

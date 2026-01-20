@@ -13,7 +13,7 @@ export default function Home() {
       {/* IMAGE ENTRE LE TITRE ET LES CARDS */}
       <div className="home-hero-image">
         <img
-          src="images/home/hero-image.jpg"
+          src={`${import.meta.env.BASE_URL}images/home/hero-image.jpg`}
           alt="Ambiance lumineuse UltraLed"
         />
       </div>

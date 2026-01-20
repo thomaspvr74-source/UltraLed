@@ -1,10 +1,10 @@
 import "../styles/Realisations.css";
 
 const videos = [
-  "videos/event1.mp4",
-  "videos/event2.mp4",
-  "videos/event3.mp4",
-  "videos/event4.mp4",
+  <video src={'${import.meta.env.BASE_URL}videos/event1.mp4'} />,
+  <video src={'${import.meta.env.BASE_URL}videos/event2.mp4'} />,
+  <video src={'${import.meta.env.BASE_URL}videos/event3.mp4'} />,
+  <video src={'${import.meta.env.BASE_URL}videos/event4.mp4'} />,
 ];
 
 export default function Realisations() {

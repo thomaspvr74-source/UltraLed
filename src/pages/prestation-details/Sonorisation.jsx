@@ -6,25 +6,25 @@ export default function Sonorisation() {
     {
       id: "petit-comite",
       title: "Sonorisation de petit comité",
-      img: "/images/prestations/sonorisation-2.jpg",
+      img: <img src={'${import.meta.env.BASE_URL}/images/prestations/sonorisation-2.jpg'} />,
       link: "/prestation/sonorisation/petit-comite",
     },
     {
       id: "salle-moyenne",
       title: "Sonorisation de salle moyenne (100–200 m²)",
-      img: "/images/prestations/sonorisation-main.jpg",
+      img: <img src={'${import.meta.env.BASE_URL}/images/prestations/sonorisation-main.jpg'} />,
       link: "/prestation/sonorisation/salle-moyenne",
     },
     {
       id: "grande-salle",
       title: "Sonorisation de grande salle (200–500 m²)",
-      img: "/images/prestations/sonorisation-3.jpg",
+      img: <img src={'${import.meta.env.BASE_URL}/images/prestations/sonorisation-3.jpg'} />,
       link: "/prestation/sonorisation/grande-salle",
     },
     {
       id: "concert",
       title: "Sonorisation de concert",
-      img: "/images/prestations/sonorisation-1.jpg",
+      img: <img src={'${import.meta.env.BASE_URL}/images/prestations/sonorisation-1.jpg'} />,
       link: "/prestation/sonorisation/concert",
     },
   ];
@@ -36,7 +36,7 @@ export default function Sonorisation() {
       <section className="prestation-detail-hero">
         <div className="prestation-detail-main-media">
           <img
-            src="/images/prestations/sonorisation-main.jpg"
+            src={'${import.meta.env.BASE_URL}/images/prestations/sonorisation-main.jpg'} 
             alt="Sonorisation"
           />
         </div>

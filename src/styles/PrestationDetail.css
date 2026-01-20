@@ -171,3 +171,53 @@
   display: block;
   background: black;
 }
+
+/* GRID DES CARDS */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+/* CARD */
+.sound-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* HOVER PREMIUM */
+.sound-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(160, 32, 240, 0.4);
+  box-shadow:
+    0 0 18px rgba(160, 32, 240, 0.25),
+    0 0 28px rgba(0, 174, 239, 0.25);
+}
+
+/* IMAGE */
+.sound-card-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* TITRE SOUS L’IMAGE */
+.sound-card-title {
+  padding: 1.2rem 1rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  border

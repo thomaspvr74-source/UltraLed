@@ -1,10 +1,10 @@
 import "../styles/Realisations.css";
 
 const videos = [
-  <video src= "videos/event1.mp4" controls/>,
-  <video src="videos/event2.mp4" controls/>,
-  <video src="videos/event3.mp4" controls/>,
-  <video src="videos/event4.mp4" controls/>,
+  "videos/event1.mp4",
+  "videos/event2.mp4",
+  "videos/event3.mp4",
+  "videos/event4.mp4",
 ];
 
 export default function Realisations() {

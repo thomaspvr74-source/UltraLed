@@ -9,10 +9,10 @@ export default function Contact() {
       </section>
 
       <form className="contact-form">
-        <input type="text" placeholder="Nom" required />
+        <input type="text" placeholder="Votre Nom" required />
         <input type="email" placeholder="Email" required />
-        <input type="text" placeholder="Type d'événement" />
-        <textarea placeholder="Votre message" rows="5" />
+        <input type="text" placeholder="Type d'événement (soirée privée, mariage, anniversaire, etc...)" />
+        <textarea placeholder="Votre message (dites-nous en plus sur votre événement, plus vous nous donnerez de details, plus nous pourrons vous satisfaire)" rows="5" />
 
         <button type="submit" className="contact-btn">
           Envoyer la demande

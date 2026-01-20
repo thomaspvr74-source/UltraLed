@@ -1,78 +1,69 @@
-
+import { Link } from "react-router-dom";
 import "../../styles/PrestationDetail.css";
 
-console.log("PAGE SONO CHARGÉE");
-
 export default function Sonorisation() {
-  const gallery = [
-    <img src="/images/prestations/sonorisation-main.jpg"/>,
-    <img src="/images/prestations/sonorisation-1.jpg"/>,
-    <img src="/images/prestations/sonorisation-2.jpg"/>,
+  const systems = [
+    {
+      id: "petit-comite",
+      title: "Sonorisation de petit comité",
+      img: "/images/prestations/sonorisation-2.jpg",
+      link: "/prestation/sonorisation/petit-comite",
+    },
+    {
+      id: "salle-moyenne",
+      title: "Sonorisation de salle moyenne (100–200 m²)",
+      img: "/images/prestations/sonorisation-main.jpg",
+      link: "/prestation/sonorisation/salle-moyenne",
+    },
+    {
+      id: "grande-salle",
+      title: "Sonorisation de grande salle (200–500 m²)",
+      img: "/images/prestations/sonorisation-3.jpg",
+      link: "/prestation/sonorisation/grande-salle",
+    },
+    {
+      id: "concert",
+      title: "Sonorisation de concert",
+      img: "/images/prestations/sonorisation-1.jpg",
+      link: "/prestation/sonorisation/concert",
+    },
   ];
 
   return (
     <div className="prestation-detail-page">
-      {/* HERO AVEC GRANDE IMAGE + INTRO */}
+
+      {/* HERO */}
       <section className="prestation-detail-hero">
         <div className="prestation-detail-main-media">
-          <img src={gallery[0]} alt="Système de sonorisation" />
+          <img
+            src="/images/prestations/sonorisation-main.jpg"
+            alt="Sonorisation"
+          />
         </div>
 
         <div className="prestation-detail-intro">
-          <h1>Sonorisation</h1>
+          <h1>Nos solutions de sonorisation</h1>
           <p>
-            Nos systèmes de sonorisation sont conçus pour offrir une qualité audio
-            claire, puissante et homogène, adaptée à tous types d’événements.
-            Que ce soit pour un mariage, une soirée privée, un anniversaire ou un
-            événement d’entreprise, nous ajustons la configuration selon vos besoins.
-          </p>
-
-          <p>
-            Ce type de système est idéal pour des événements de 50 à 150 personnes,
-            dans des salles allant de 50 à 200 m². Nous proposons également des
-            solutions pour l’extérieur ou les grandes salles.
+            Découvrez nos différentes configurations de sonorisation adaptées à
+            tous types d’événements : petits comités, salles moyennes, grandes
+            salles ou concerts. Chaque système est optimisé pour offrir une
+            qualité audio claire, puissante et homogène.
           </p>
         </div>
       </section>
 
-      {/* GALERIE D’IMAGES */}
-      <section className="prestation-detail-gallery">
-        {gallery.slice(1).map((src, i) => (
-          <div className="prestation-detail-thumb" key={i}>
-            <img src={src} alt={`Sonorisation vue ${i + 1}`} />
-          </div>
+      {/* CARDS DES SYSTÈMES */}
+      <section className="prestation-detail-gallery cards-grid">
+        {systems.map((sys) => (
+          <Link to={sys.link} key={sys.id} className="sound-card">
+            <div className="sound-card-img">
+              <img src={sys.img} alt={sys.title} />
+            </div>
+            <h3 className="sound-card-title">{sys.title}</h3>
+          </Link>
         ))}
       </section>
 
-      {/* CONTENU : IDÉAL POUR + OPTIONS */}
-      <section className="prestation-detail-content">
-        <div className="prestation-detail-block">
-          <h2>Idéal pour</h2>
-          <ul>
-            <li>Événements de 50 à 150 personnes</li>
-            <li>Salles de 50 à 200 m²</li>
-            <li>Mariages, anniversaires, soirées privées</li>
-            <li>Discours, DJ, animations micro</li>
-          </ul>
-        </div>
-
-        <div className="prestation-detail-block">
-          <h2>Options disponibles</h2>
-          <ul>
-            <li>Enceintes amplifiées 1000W</li>
-            <li>Caisson de basses pour plus d’impact</li>
-            <li>Micros filaires ou HF (sans fil)</li>
-            <li>Table de mixage / contrôleur DJ</li>
-            <li>Régie son avec technicien sur place</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="prestation-detail-cta">
-        <h2>Envie d’un son adapté à votre événement ?</h2>
-        <button className="prestation-detail-btn">Demander un devis</button>
-      </section>
     </div>
   );
 }

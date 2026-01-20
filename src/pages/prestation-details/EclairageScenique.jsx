@@ -2,8 +2,8 @@ import "../../styles/PrestationDetail.css";
 
 export default function EclairageScenique() {
   const gallery = [
-    <img src="/images/prestations/eclairage-scenique-1.jpg"/>,
-    <img src="/images/prestations/eclairage-scenique-2.jpg"/>,
+    "/images/prestations/eclairage-scenique-1.jpg",
+    "/images/prestations/eclairage-scenique-2.jpg",
   ];
 
   return (

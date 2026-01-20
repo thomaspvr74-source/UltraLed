@@ -19,6 +19,10 @@ import Sonorisation from "./pages/prestation-details/Sonorisation";
 import DJAnimation from "./pages/prestation-details/DJAnimation";
 import Eclairage from "./pages/prestation-details/Eclairage";
 import EclairageScenique from "./pages/prestation-details/EclairageScenique";
+import PetitComite from "./pages/prestation-details/sonorisation/PetitComite";
+import SalleMoyenne from "./pages/prestation-details/sonorisation/SalleMoyenne";
+import GrandeSalle from "./pages/prestation-details/sonorisation/GrandeSalle";
+import Concert from "./pages/prestation-details/sonorisation/Concert";
 
 export default function App() {
   return (
@@ -38,6 +42,11 @@ export default function App() {
           <Route path="/prestation/dj-animation" element={<DJAnimation />} />
           <Route path="/prestation/eclairage" element={<Eclairage />} />
           <Route path="/prestation/eclairage-scenique" element={<EclairageScenique />} />
+          <Route path="/prestation/sonorisation/petit-comite" element={<PetitComite />} />
+          <Route path="/prestation/sonorisation/salle-moyenne" element={<SalleMoyenne />} />
+          <Route path="/prestation/sonorisation/grande-salle" element={<GrandeSalle />} />
+          <Route path="/prestation/sonorisation/concert" element={<Concert />} />
+
 
           <Route path="*" element={<NotFound />} />
         </Routes>

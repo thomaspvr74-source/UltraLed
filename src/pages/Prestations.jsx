@@ -7,25 +7,25 @@ export default function Prestations() {
       slug: "sonorisation",
       title: "Sonorisation",
       desc: "Systèmes audio puissants et clairs pour tous types d’événements.",
-      img: <img src="/images/prestations/sonorisation-main.jpg"/>,
+      img: "/images/prestations/sonorisation-main.jpg",
     },
     {
       slug: "eclairage",
       title: "Éclairage",
       desc: "Ambiance lumineuse moderne, dynamique et personnalisée.",
-      img: <img src="/images/prestations/eclairage-main.png"/>,
+      img: "/images/prestations/eclairage-main.png",
     },
     {
       slug: "dj-animation",
       title: "DJ & Animation",
       desc: "Une ambiance musicale adaptée à votre soirée.",
-      img: <img src="/images/prestations/dj-main.png"/>,
+      img: "/images/prestations/dj-main.png",
     },
     {
       slug: "eclairage-scenique",
       title: "Éclairage Scénique",
       desc: "Projecteurs, effets et mise en scène professionnelle.",
-      img: <img src="/images/prestations/eclairage-scenique-main.jpg"/>,
+      img: "/images/prestations/eclairage-scenique-main.jpg",
     },
   ];
 
@@ -65,24 +65,48 @@ export default function Prestations() {
           {[
             {
               name: "Essentiel",
-              price: "À partir de 149€",
-              features: ["Sonorisation", "Éclairage LED", "Installation"],
+              price: "À partir de 199€",
+              features: [
+                "Sonorisation", 
+                "Éclairage d'ambiance", 
+                "Installation", 
+                "Démontage"],
             },
             {
               name: "Avancé",
-              price: "À partir de 249€",
-              features: ["Sonorisation", "Éclairage LED", "DJ", "Effets lumineux"],
+              price: "À partir de 270€",
+              features: [
+                "Sonorisation", 
+                "Éclairage d'ambiance", 
+                "DJ", 
+                "Effets lumineux et jeux de lumières", 
+                "Installation", 
+                "Démontage"],
             },
             {
               name: "Premium",
-              price: "À partir de 399€",
+              price: "À partir de 320€",
               features: [
                 "Sonorisation",
-                "Éclairage LED",
+                "Éclairage d'ambiance",
                 "DJ",
-                "Effets scéniques",
-                "Machine à fumée",
+                "Effets scéniques et éclairage scénique",
+                "Installation",
+                "Démontage"
               ],
+            },
+            {
+              name: "Concert",
+              price: "Sur devis-prix variable en fonction de la taille de l'évènement",
+              features: [
+                "Sonorisation professionnelle",
+                "Éclairage scénique avancé",
+                "Technicien son et lumière",
+                "retour de scène",
+                "Installation",
+                "Démontage"
+              ],
+
             },
           ].map((pack, i) => (
             <div className="pack-card" key={i}>

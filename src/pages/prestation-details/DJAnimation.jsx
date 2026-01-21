@@ -2,7 +2,7 @@ import "../../styles/PrestationDetail.css";
 
 export default function DJAnimation() {
   const gallery = [
-    `${import.meta.env.BASE_URL}images/prestations/dj-main.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/dj-main.png`,
     `${import.meta.env.BASE_URL}images/prestations/dj-1.jpg`,
     `${import.meta.env.BASE_URL}images/prestations/dj-2.jpg`,
   ];

@@ -13,7 +13,7 @@ export default function Prestations() {
     slug: "eclairage",
     title: "Éclairage",
     desc: "Ambiance lumineuse moderne, dynamique et personnalisée.",
-    img: `${import.meta.env.BASE_URL}images/prestations/eclairage-main.png`,
+    img: `${import.meta.env.BASE_URL}images/prestations/eclairage.jpg`,
   },
   {
     slug: "dj-animation",

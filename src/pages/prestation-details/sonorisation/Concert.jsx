@@ -32,14 +32,14 @@ export default function Concert() {
             <li>Concerts live</li>
             <li>Festivals et scènes extérieures</li>
             <li>Showcases et performances artistiques</li>
-            <li>Événements de 300 à 1000 personnes</li>
+            <li>Événements de 300 à 2000 personnes</li>
           </ul>
         </div>
 
         <div className="prestation-detail-block">
           <h2>Caractéristiques</h2>
           <ul>
-            <li>Line array professionnel</li>
+            <li>sonorisation professionnel</li>
             <li>Subs haute puissance</li>
             <li>Console numérique</li>
             <li>Technicien son + régisseur</li>

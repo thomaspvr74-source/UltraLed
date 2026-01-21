@@ -2,9 +2,9 @@ import "../../styles/PrestationDetail.css";
 
 export default function Eclairage() {
   const gallery = [
-    `${import.meta.env.BASE_URL}images/prestations/eclairage_main.jpg`,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-main.jpg`,
     `${import.meta.env.BASE_URL}images/prestations/eclairage-1.jpg`,
-    `${import.meta.env.BASE_URL}images/prestations/eclairage-2.webp`,
+    `${import.meta.env.BASE_URL}images/prestations/eclairage-2.jpg`,
   ];
 
   return (
@@ -16,10 +16,10 @@ export default function Eclairage() {
         </div>
 
         <div className="prestation-detail-intro">
-          <h1>Éclairage d'ambiance LED</h1>
+          <h1>Éclairage d'ambiance</h1>
           <p>
             Créez une ambiance lumineuse moderne et immersive grâce à nos
-            éclairages LED. Parfait pour sublimer une salle, une piste de danse
+            éclairages. Parfait pour sublimer une salle, une piste de danse
             ou un espace extérieur.
           </p>
           <p>
@@ -51,7 +51,7 @@ export default function Eclairage() {
         <div className="prestation-detail-block">
           <h2>Options disponibles</h2>
           <ul>
-            <li>Par à Led LED RGB</li>
+            <li>Par à Led RGB</li>
             <li>Jeux de lumière</li>
             <li>Effets dynamiques</li>
             <li>Synchronisation musicale</li>
